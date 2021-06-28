@@ -7,10 +7,8 @@ import { DISHES } from './shared/dishes';
 // import { render } from '@testing-library/react';
 
 class App extends Component {
-
   constructor(props) {
     super(props);
-
     this.state = {
       dishes: DISHES
     };
