@@ -32,7 +32,7 @@ class Dishdetail extends Component {
         );}
 
 
-    function RenderDish=(dish)=>
+    RenderDish=(dish)=>
     {
         if (dish!=null)
         {
