@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Card,CardImg,CardText,CardTitle,CardBody} from "reactstrap"
-import "bootstrap/dist/css/bootstrap.min.css"
 
 class Dishdetail extends Component {
 
@@ -14,7 +13,7 @@ class Dishdetail extends Component {
         );}
 
 
-    renderDish=(dish)=>
+    function RenderDish=(dish)=>
     {
         if (dish!=null)
         {
